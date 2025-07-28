@@ -4,20 +4,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Mitra Andal Konsultan - Jasa Konsultasi Lingkungan Profesional</title>
-    <link rel="icon" type="image/x-icon" href="img/logo.webp">
 
-    <link
+    <title>Jasa Konsultan Lingkungan Profesional di Samarinda | CV Mitra Andal Konsultan</title>
+    <meta name="description"
+        content="CV Mitra Andal Konsultan menyediakan jasa konsultasi lingkungan profesional di Samarinda, termasuk pengurusan AMDAL, UKL-UPL, DELH/DPLH, dan izin lingkungan lainnya untuk mendukung pembangunan berkelanjutan.">
+    <meta name="keywords"
+        content="konsultan lingkungan, jasa amdal, ukl-upl, persetujuan lingkungan, delh, dplh, limbah b3, andalalin, konsultan lingkungan samarinda, izin lingkungan, studi kelayakan, rkl-rpl">
+    <meta name="author" content="CV Mitra Andal Konsultan">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mitraandalkonsultan.com/"> <link rel="icon" type="image/webp" href="img/logo.webp">
+    <link rel="apple-touch-icon" href="img/logo.webp">
+
+    <meta property="og:title" content="Jasa Konsultan Lingkungan Profesional | CV Mitra Andal Konsultan">
+    <meta property="og:description"
+        content="Mitra terpercaya untuk pemenuhan regulasi lingkungan Anda. Kami menyediakan layanan penyusunan AMDAL, UKL-UPL, dan perizinan lingkungan lainnya.">
+    <meta property="og:image" content="https://mitraandalkonsultan.com/img/image1.webp">
+    <meta property="og:url" content="https://mitraandalkonsultan.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CV Mitra Andal Konsultan">
+    <meta property="og:locale" content="id_ID">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jasa Konsultan Lingkungan Profesional | CV Mitra Andal Konsultan">
+    <meta name="twitter:description"
+        content="Mitra terpercaya untuk pemenuhan regulasi lingkungan Anda. Kami menyediakan layanan penyusunan AMDAL, UKL-UPL, dan perizinan lingkungan lainnya.">
+    <meta name="twitter:image" content="https://mitraandalkonsultan.com/img/image1.webp">
+    <meta name="twitter:site" content="@nama_twitter_anda"> <meta name="theme-color" content="#2e8b57"> <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500&display=swap"
         rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .mitra-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mitra-logo {
+            max-height: 70px;
+            width: auto;
+            max-width: 100%;
+            filter: grayscale(100%);
+            opacity: 0.7;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .mitra-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(46, 139, 87, 0.15);
+        }
+
+        .mitra-card:hover .mitra-logo {
+            filter: grayscale(0%);
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        .mitra-name {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(46, 139, 87, 0.9);
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(100%);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .mitra-card:hover .mitra-name {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 
 </head>
 
@@ -34,8 +111,7 @@
                     <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#clients">Klien</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Tim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#clients">Mitra</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
                 </ul>
                 <div class="ms-lg-3 mt-3 mt-lg-0">
@@ -59,8 +135,10 @@
                     style="background-image: url('https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3');">
                     <div class="carousel-container">
                         <div class="hero-content">
-                            <h1>Mitra Profesional dan Terpercaya dalam Pemenuhan Regulasi Lingkungan Menuju Pembangunan Berwawasan Lingkungan</h1>
-                            <p>Kami menyediakan layanan konsultasi lingkungan profesional untuk membantu bisnis Anda memenuhi kepatuhan terhadap peraturan lingkungan.</p>
+                            <h1>Mitra Profesional dan Terpercaya dalam Pemenuhan Regulasi Lingkungan Menuju Pembangunan
+                                Berwawasan Lingkungan</h1>
+                            <p>Kami menyediakan layanan konsultasi lingkungan profesional untuk membantu bisnis Anda
+                                memenuhi kepatuhan terhadap peraturan lingkungan.</p>
                             <a href="#services" class="btn btn-primary">Layanan Kami</a>
                         </div>
                     </div>
@@ -71,7 +149,8 @@
                     <div class="carousel-container">
                         <div class="hero-content">
                             <h2>Inovasi dalam Pengelolaan Lingkungan</h2>
-                            <p>Terapkan sistem pengelolaan lingkungan yang efisien dan ramah lingkungan bersama para ahli kami.</p>
+                            <p>Terapkan sistem pengelolaan lingkungan yang efisien dan ramah lingkungan bersama para ahli
+                                kami.</p>
                             <a href="#contact" class="btn btn-primary">Konsultasi Sekarang</a>
                         </div>
                     </div>
@@ -82,7 +161,8 @@
                     <div class="carousel-container">
                         <div class="hero-content">
                             <h2>Kepatuhan Regulasi Terjamin</h2>
-                            <p>Pastikan proyek Anda memenuhi semua peraturan lingkungan yang berlaku dengan panduan dari kami.</p>
+                            <p>Pastikan proyek Anda memenuhi semua peraturan lingkungan yang berlaku dengan panduan dari
+                                kami.</p>
                             <a href="#about" class="btn btn-primary">Tentang Kami</a>
                         </div>
                     </div>
@@ -109,7 +189,8 @@
                 </div>
                 <div class="col-lg-6">
                     <h2 class="section-title">Tentang Kami</h2>
-                    <p class="lead">Kami menyediakan layanan konsultasi lingkungan profesional untuk membantu bisnis Anda memenuhi kepatuhan terhadap peraturan lingkungan.</p>
+                    <p class="lead">Kami menyediakan layanan konsultasi lingkungan profesional untuk membantu bisnis Anda
+                        memenuhi kepatuhan terhadap peraturan lingkungan.</p>
                     <p>Dengan tim ahli lingkungan berpengalaman, kami membantu organisasi untuk memenuhi kewajiban
                         lingkungan, mengurangi dampak ekologis, dan menerapkan praktik bisnis berkelanjutan.</p>
                     <div class="row mt-4">
@@ -163,15 +244,20 @@
             <div class="row justify-content-between">
                 <div class="col-lg-6 text-center">
                     <h2 class="section-title">Visi</h2>
-                    <p class="lead">Menjadi perusahaan konsultan lingkungan terdepan dan terpercaya untuk mendukung pembangunan yang berkelanjutan di Indonesia.</p>
+                    <p class="lead">Menjadi perusahaan konsultan lingkungan terdepan dan terpercaya untuk mendukung
+                        pembangunan yang berkelanjutan di Indonesia.</p>
                 </div>
                 <div class="col-lg-6 text-start">
                     <h2 class="section-title">Misi</h2>
                     <ol>
-                        <li>Memberikan layanan konsultasi persetujuan lingkungan yang profesional bagi pelaku usaha dan instansi pemerintah.</li>
-                        <li>Menjadi mitra yang andal dan solutif dalam setiap proses penyusunan dokumen lingkungan sesuai regulasi dan kebutuhan klien.</li>
-                        <li>Mengedepankan integritas dalam setiap pekerjaan untuk menghasilkan output yang berkualitas.</li>
-                        <li>Mengembangkan kompetensi tim secara berkelanjutan untuk menghadapi dinamika peraturan dan tantangan lingkungan di masa depan.</li>
+                        <li>Memberikan layanan konsultasi persetujuan lingkungan yang profesional bagi pelaku usaha dan
+                            instansi pemerintah.</li>
+                        <li>Menjadi mitra yang andal dan solutif dalam setiap proses penyusunan dokumen lingkungan
+                            sesuai regulasi dan kebutuhan klien.</li>
+                        <li>Mengedepankan integritas dalam setiap pekerjaan untuk menghasilkan output yang berkualitas.
+                        </li>
+                        <li>Mengembangkan kompetensi tim secara berkelanjutan untuk menghadapi dinamika peraturan dan
+                            tantangan lingkungan di masa depan.</li>
                     </ol>
                     </p>
                 </div>
@@ -184,7 +270,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
                     <h2 class="section-title">Layanan Kami</h2>
-                    <p class="lead">Kami menyediakan berbagai layanan konsultasi lingkungan untuk memenuhi kebutuhan bisnis Anda.</p>
+                    <p class="lead">Kami menyediakan berbagai layanan konsultasi lingkungan untuk memenuhi kebutuhan
+                        bisnis Anda.</p>
                 </div>
             </div>
             <div class="row mt-5">
@@ -194,7 +281,8 @@
                             <i class="fas fa-file-alt"></i>
                         </div>
                         <h4>Persetujuan Lingkungan melalui penyusunan Amdal dan UKL-UPL</h4>
-                        <p>Penyusunan dokumen AMDAL dan UKL-UPL untuk memperoleh persetujuan lingkungan sesuai peraturan perundang-undangan yang berlaku.</p>
+                        <p>Penyusunan dokumen AMDAL dan UKL-UPL untuk memperoleh persetujuan lingkungan sesuai peraturan
+                            perundang-undangan yang berlaku.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -203,7 +291,9 @@
                             <i class="fas fa-file-contract"></i>
                         </div>
                         <h4>Perubahan Persetujuan Lingkungan</h4>
-                        <p>Penyusunan dokumen AMDAL baru, Adendum ANDAL dan RKL-RPL Tipe A/B/C dan UKL-UPL baru untuk memperoleh perubahan persetujuan lingkungan sesuai peraturan perundang-undangan yang berlaku.</p>
+                        <p>Penyusunan dokumen AMDAL baru, Adendum ANDAL dan RKL-RPL Tipe A/B/C dan UKL-UPL baru untuk
+                            memperoleh perubahan persetujuan lingkungan sesuai peraturan perundang-undangan yang
+                            berlaku.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -212,7 +302,8 @@
                             <i class="fas fa-file-certificate"></i>
                         </div>
                         <h4>Persetujuan DELH/DPLH</h4>
-                        <p>Layanan penyusunan Dokumen Evaluasi Lingkungan Hidup atau Dokumen Pengelolaan Lingkungan Hidup.</p>
+                        <p>Layanan penyusunan Dokumen Evaluasi Lingkungan Hidup atau Dokumen Pengelolaan Lingkungan
+                            Hidup.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -221,7 +312,8 @@
                             <i class="fas fa-tint"></i>
                         </div>
                         <h4>Pertek Pemenuhan BMAL</h4>
-                        <p>Penyusunan Dokumen Standar/Kajian Teknis untuk memperoleh Persetujuan Teknis Pemenuhan Baku Mutu Air Limbah.</p>
+                        <p>Penyusunan Dokumen Standar/Kajian Teknis untuk memperoleh Persetujuan Teknis Pemenuhan Baku
+                            Mutu Air Limbah.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -230,7 +322,8 @@
                             <i class="fas fa-wind"></i>
                         </div>
                         <h4>Persetujuan Teknis Pemenuhan Baku Mutu Emisi</h4>
-                        <p>Penyusunan Dokumen Standar/Kajian Teknis untuk memperoleh Persetujuan Teknis Pemenuhan Baku Mutu Air Emisi.</p>
+                        <p>Penyusunan Dokumen Standar/Kajian Teknis untuk memperoleh Persetujuan Teknis Pemenuhan Baku
+                            Mutu Air Emisi.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -239,7 +332,8 @@
                             <i class="fas fa-traffic-light"></i>
                         </div>
                         <h4>Pertek Andalalin</h4>
-                        <p>Layanan penyusunan ANDALALIN (bangkita tinggi/sedang/rendah) persetujuan teknis analisis dampak lalu lintas (Andalalin).</p>
+                        <p>Layanan penyusunan ANDALALIN (bangkita tinggi/sedang/rendah) persetujuan teknis analisis
+                            dampak lalu lintas (Andalalin).</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -257,7 +351,8 @@
                             <i class="fas fa-map-marked-alt"></i>
                         </div>
                         <h4>PKKPR dan PKKPRL</h4>
-                        <p>Layanan pengurusan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang dan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang Laut .</p>
+                        <p>Layanan pengurusan Persetujuan Kesesuaian Kegiatan Pemanfaatan Ruang dan Persetujuan
+                            Kesesuaian Kegiatan Pemanfaatan Ruang Laut .</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -266,7 +361,8 @@
                             <i class="fas fa-clipboard-check"></i>
                         </div>
                         <h4>Laporan pelaksanaan RKL-RPL</h4>
-                        <p>Layanan Penyusunan laporan pelaksanaan Rencana Pengelolaan Lingkungan dan Rencana Pemantauan Lingkungan.</p>
+                        <p>Layanan Penyusunan laporan pelaksanaan Rencana Pengelolaan Lingkungan dan Rencana
+                            Pemantauan Lingkungan.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -275,7 +371,8 @@
                             <i class="fas fa-file-invoice"></i>
                         </div>
                         <h4>Laporan Eksplorasi, Feasibility Study, Rencana Reklamasi dan RKAB</h4>
-                        <p>Layanan Penyusunan laporan eksplorasi, feasibility study, rencana reklamasi, dan rencana kerja anggaran biaya.</p>
+                        <p>Layanan Penyusunan laporan eksplorasi, feasibility study, rencana reklamasi, dan rencana
+                            kerja anggaran biaya.</p>
                     </div>
                 </div>
             </div>
@@ -286,38 +383,69 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="section-title">Proyek Terbaru</h2>
-                    <p class="lead">Beberapa proyek yang telah kami selesaikan dengan sukses.</p>
+                    <h2 class="section-title">Proyek </h2>
+                    <p class="lead">Dokumentasi Kegiatan Proyek</p>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-5 g-4">
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
-                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3"
-                            alt="Proyek Restorasi Hutan" class="project-img">
+                        <img src="img/image2.webp" alt="Proyek TUKS dan Stockpile material" class="project-img">
                         <div class="project-overlay">
-                            <h4>Pengambilan Sampel Udara Ambien</h4>
-                            <p>Proyek pengambilan sampel udara ambien untuk pemantauan kualitas lingkungan.</p>
+                            <h4>TUKS dan Stockpile Material</h4>
+                            <p>Konsultasi dan penyusunan dokumen lingkungan untuk Terminal Untuk Kepentingan Sendiri
+                                (TUKS) dan area stockpile material.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
-                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3"
-                            alt="Pengelolaan Limbah" class="project-img">
+                        <img src="img/image3.webp" alt="Proyek Pengolahan Batu Gamping/Kapur" class="project-img">
                         <div class="project-overlay">
-                            <h4>Pertambangan Batu Gamping</h4>
-                            <p>Proyek konsultasi lingkungan untuk kegiatan pertambangan batu gamping.</p>
+                            <h4>Pengolahan Batu Gamping/Kapur</h4>
+                            <p>Pendampingan perizinan dan studi kelayakan lingkungan untuk fasilitas pengolahan batu
+                                gamping.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="project-card">
-                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3"
-                            alt="Audit Lingkungan" class="project-img">
+                        <img src="img/image4.webp" alt="Proyek Adendum ANDAL dan RKL-RPL Intake Sepaku"
+                            class="project-img">
+                        <div class="project-overlay">
+                            <h4>Adendum ANDAL dan RKL-RPL Intake Sepaku</h4>
+                            <p>Penyusunan adendum dokumen AMDAL untuk perubahan rencana kegiatan pada proyek Intake
+                                Sepaku.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <img src="img/image6.webp" alt="Proyek UKL-UPL RS Mata Prov. Kaltim" class="project-img">
                         <div class="project-overlay">
                             <h4>UKL-UPL RS Mata Prov. Kaltim</h4>
-                            <p>Layanan penyusunan dokumen UKL-UPL untuk Rumah Sakit Mata Provinsi Kalimantan Timur.</p>
+                            <p>Layanan penyusunan dokumen UKL-UPL untuk pembangunan Rumah Sakit Mata Provinsi
+                                Kalimantan Timur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <img src="img/image7.webp" alt="Proyek Pertambangan batu gamping" class="project-img">
+                        <div class="project-overlay">
+                            <h4>Pertambangan Batu Gamping</h4>
+                            <p>Studi kelayakan dan penyusunan dokumen lingkungan untuk kegiatan pertambangan batu
+                                gamping.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <img src="img/image8.webp" alt="Proyek Pengambilan sampel udara ambien" class="project-img">
+                        <div class="project-overlay">
+                            <h4>Pengambilan Sampel Udara Ambien</h4>
+                            <p>Pemantauan kualitas udara melalui pengambilan sampel udara ambien di lokasi proyek
+                                strategis.</p>
                         </div>
                     </div>
                 </div>
@@ -329,117 +457,49 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="section-title">Klien</h2>
-                    <p class="lead">Apa yang dikatakan klien tentang layanan kami.</p>
+                    <h2 class="section-title">Mitra Kami</h2>
+                    <p class="lead">Dipercaya untuk bekerjasama dengan klien dalam jalinan kemitraan</p>
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-lg-4 mb-4">
-                    <div class="testimonial-card animate">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Klien" class="testimonial-img">
-                        <p>"Layanan konsultasi dari CV Mitra Andal Konsultan sangat profesional. Mereka membantu
-                            perusahaan kami dalam menyusun dokumen AMDAL dengan cepat dan akurat."</p>
-                        <h5 class="mb-0">Budi Gunawan</h5>
-                        <p class="text-muted">Direktur, PT Makmur Sejahtera</p>
+            <div class="row mt-5 align-items-center justify-content-center text-center g-4">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="mitra-card">
+                        <img src="img/image9.webp" alt="Logo Mitra PT Merani Bumi Persada" class="img-fluid mitra-logo">
+                        <div class="mitra-name">PT Meranti Bumi Persada</div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="testimonial-card animate delay-1">
-                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Klien" class="testimonial-img">
-                        <p>"Tim Mitra Andal Konsultan memberikan solusi pengelolaan limbah yang inovatif bagi pabrik
-                            kami.
-                            Biaya operasional turun 30% dengan sistem baru mereka."</p>
-                        <h5 class="mb-0">Dewi Anggraeni</h5>
-                        <p class="text-muted">Manajer Operasional, PT Sinar Jaya</p>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="mitra-card">
+                        <img src="img/image10.webp" alt="Logo Mitra Balai Wilayah Sungai Kalimantan IV"
+                            class="img-fluid mitra-logo">
+                        <div class="mitra-name">Balai Wilayah Sungai Kalimantan IV</div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-4">
-                    <div class="testimonial-card animate delay-2">
-                        <img src="https://randomuser.me/api/portraits/men/62.jpg" alt="Klien" class="testimonial-img">
-                        <p>"Proyek restorasi ekosistem yang dilakukan Mitra Andal Konsultan memberikan dampak positif
-                            bagi
-                            lingkungan sekitar dan masyarakat lokal."</p>
-                        <h5 class="mb-0">Agus Erte</h5>
-                        <p class="text-muted">Kepala Desa Rimbawan</p>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="mitra-card">
+                        <img src="img/image11.webp" alt="Logo Mitra Rumah Sakit Mata Pemprov Kaltim"
+                            class="img-fluid mitra-logo">
+                        <div class="mitra-name">RS Mata Pemprov Kaltim</div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="team" class="section-padding bg-alt">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="section-title">Tim Ahli Kami</h2>
-                    <p class="lead">Bertemu dengan tim ahli lingkungan berpengalaman kami.</p>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="team-card">
-                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Tim" class="team-img">
-                        <div class="p-4">
-                            <h5 class="mb-1">Dr. Sastro</h5>
-                            <p class="text-muted">Ahli Lingkungan</p>
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="mitra-card">
+                        <img src="img/image12.webp" alt="Logo Mitra Siloam Hospital Balikpapan"
+                            class="img-fluid mitra-logo">
+                        <div class="mitra-name">Siloam Hospital Balikpapan</div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="team-card">
-                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Tim" class="team-img">
-                        <div class="p-4">
-                            <h5 class="mb-1">Siti Rahayu, M.Si</h5>
-                            <p class="text-muted">Spesialis AMDAL</p>
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="team-card">
-                        <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Tim" class="team-img">
-                        <div class="p-4">
-                            <h5 class="mb-1">Bambang Prasetyo, ST</h5>
-                            <p class="text-muted">Ahli Pengolahan Limbah</p>
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 mb-4">
-                    <div class="team-card">
-                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Tim" class="team-img">
-                        <div class="p-4">
-                            <h5 class="mb-1">Diana Putri, M.Eng</h5>
-                            <p class="text-muted">Spesialis Energi Terbarukan</p>
-                        </div>
-                        <div class="team-social">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="mitra-card">
+                        <img src="img/image13.webp" alt="Logo Mitra Klinik Laboratorium Prodia Samarinda"
+                            class="img-fluid mitra-logo">
+                        <div class="mitra-name">Prodia Samarinda</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section id="faq" class="section-padding bg-light">
         <div class="container">
             <div class="row justify-content-center">
@@ -456,7 +516,9 @@
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="faq-answer">
-                            <p>AMDAL dan UKL-UPL merupakan pedoman dalam melakukan pengelolaan dampak lingkungan yang ditimbulkan terhadap lingkungan agar usaha atau kegiatan berwawasan lingkungan dan berkelanjutan.</p>
+                            <p>AMDAL dan UKL-UPL merupakan pedoman dalam melakukan pengelolaan dampak lingkungan yang
+                                ditimbulkan terhadap lingkungan agar usaha atau kegiatan berwawasan lingkungan dan
+                                berkelanjutan.</p>
                         </div>
                     </div>
                     <div class="faq-item animate delay-1">
@@ -465,10 +527,13 @@
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="faq-answer">
-                            <p>Waktu prosesnya tentatif, tergantung kelengkapan data yang dimiliki oleh pelaku usaha dan tergantung jumlah Pelaku Usaha yang sedang mengurus Persetujuan Lingkungan (PL) di DLH dan KLH. Semakin banyak pelaku usaha yang mengurus PL maka akan semakin lama proses untuk mendapatkan PL.</p>
+                            <p>Waktu prosesnya tentatif, tergantung kelengkapan data yang dimiliki oleh pelaku usaha dan
+                                tergantung jumlah Pelaku Usaha yang sedang mengurus Persetujuan Lingkungan (PL) di DLH
+                                dan KLH. Semakin banyak pelaku usaha yang mengurus PL maka akan semakin lama proses
+                                untuk mendapatkan PL.</p>
                         </div>
                     </div>
-                    <div class="faq-item animate delay-2">
+                    <!-- <div class="faq-item animate delay-2">
                         <div class="faq-question">
                             <span>[Pertanyaan 3]</span>
                             <i class="fas fa-chevron-down"></i>
@@ -485,7 +550,7 @@
                         <div class="faq-answer">
                             <p>[Jawaban 4]</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -557,28 +622,28 @@
                                 <div class="contact-info-item">
                                     <div class="d-flex align-items-center">
                                         <div class="contact-icon me-4">
-                                            <i class="fas fa-map-marker-alt fa-lg text-white"></i>
+                                            <i class="fa fa-map-marker-alt fa-lg text-white"></i>
                                         </div>
                                         <div>
                                             <h4 class="h5 text-white mb-1">Alamat</h4>
-                                            <p class="mb-0 text-light">
-                                                Jl. Rumbia No. 09 RT.18, Sidomulyo, Samarinda Ilir, Kota Samarinda
-                                            </p>
+                                            <a href="https://maps.app.goo.gl/RNhMMU5RVWCHpE4i6" target="_blank" class="text-light d-block">
+                                                <p class="mb-0 text-light">
+                                                    Jl. Rumbia No. 09 RT.18, Sidomulyo, Samarinda Ilir, Kota Samarinda
+                                                </p>
+                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div class="contact-info-item">
                                     <div class="d-flex align-items-center">
                                         <div class="contact-icon me-4">
-                                            <i class="fas fa-phone fa-lg text-white"></i>
+                                            <i class="fab fa-whatsapp fa-lg text-white"></i>
                                         </div>
                                         <div>
-                                            <h4 class="h5 text-white mb-1">Telepon</h4>
-                                            <a href="tel:+6285194169454" class="text-light d-block">
+                                            <h4 class="h5 text-white mb-1">WhatsApp</h4>
+                                            <a target="_blank" href="https://wa.me/+6285194169454" class="text-light d-block">
                                                 085194169454 (WhatsApp)
-                                            </a>
-                                            <a href="#" class="text-light d-block">
-                                                [Nomor telepon utama]
                                             </a>
                                         </div>
                                     </div>
@@ -592,9 +657,6 @@
                                             <h4 class="h5 text-white mb-1">Email</h4>
                                             <a href="mailto:mitraandalkonsultan@gmail.com" class="text-light d-block">
                                                 mitraandalkonsultan@gmail.com
-                                            </a>
-                                            <a href="#" class="text-light d-block">
-                                                [Email sekunder]
                                             </a>
                                         </div>
                                     </div>
@@ -617,6 +679,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -649,12 +712,13 @@
                 </div>
                 <div class="col-lg-4 col-md-4 mb-5 mb-md-0">
                     <h5>Our Social Media</h5>
-                    <div class="social-links mt-4">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/konsultanlingkungan" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    <div class="footer-links mt-4">
+                        <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/konsultanlingkungan" target="_blank"><i
+                                class="fab fa-instagram"></i> Instagram </a>
+                        <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a> -->
                     </div>
                 </div>
             </div>
